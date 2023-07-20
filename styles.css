@@ -258,6 +258,243 @@ samp {
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
 }
+/*  contact secton  */
+
+.home h1 span
+{
+    color:rgb(187, 117, 25);
+}
+.bt:hover
+{
+    background-color: rgb(97, 21, 21);
+}
+section .row
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 4rem;
+    text-align: center;
+    color: aliceblue;
+}
+section .counter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1 1 48rem;
+    color: rgb(241, 233, 233);
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+section .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    padding-left: 3rem;
+
+}
+section .box-container .box
+{
+    position: relative;
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid white;
+
+}
+section .box-container .box span{
+    font-size: 1.3rem;
+    background: rgb(42, 35, 35);
+    color: white;
+    padding: .5rem 2.5rem;
+    border-radius: 5rem;
+}
+
+section .box-container .box h3{
+    color: white;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    font-weight: normal;
+}
+section .box-container .box p{
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 0rem;
+}
+
+section .box-container .box i{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top:-1.5rem;
+    left: -2.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    background: rgb(189, 189, 65);
+    line-height: 5rem;
+    text-align: center;
+}
+.portfolio .box-container .box img
+{
+ object-fit: cover;
+ cursor: pointer;
+ width: 100%;
+ height: 100%;
+}
+.portfolio .box-container .box:hover img
+{
+    transform: scale(1.2);
+}
+.contact .row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .row .content
+{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+.contact .row form
+{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+.contact .row form .box
+{
+    padding: 1.5rem;
+    background: rgb(29, 25, 25);
+    margin: 1rem 0;
+    color: white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+
+}
+.contact .row form .box::placeholder
+{
+    text-transform: capitalize;
+}
+.contact .row form .message
+{
+    height: 15rem;
+    resize: none;
+
+}
+.contact .row .content .tittle
+{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i
+{
+    padding-right: 1rem;
+    color:  rgb(189, 189, 65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+html
+{
+    font-size: 62.5%;
+   
+}
+.home{
+    padding: 1rem 4rem;
+}
+
+}
+@media(max-width:991px)
+{
+    header
+    {
+        left: -120%;
+    }
+    #menu
+    {
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+ body {
+     padding: 0;
+ }
+}
+@media(max-width:768px)
+{
+    html 
+    {
+        font-size: 50%;
+    }
+    section.row{
+        width:100%;
+    }
+    section .box-container .box{
+        width: 100%;
+    }
+    .contact .row form
+    {
+        margin: 3rem 0;
+    }
+
+}
+    
+    
 
 pre {
   display: block;
